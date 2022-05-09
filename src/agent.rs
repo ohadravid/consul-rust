@@ -39,6 +39,7 @@ pub struct AgentService {
     pub ID: String,
     pub Service: String,
     pub Tags: Option<Vec<String>>,
+    pub Meta: Option<HashMap<String, String>>,
     pub Port: u16,
     pub Address: String,
     pub EnableTagOverride: bool,
